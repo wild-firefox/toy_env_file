@@ -6,3 +6,9 @@ _duizhao 是为了改成FreeRL一致的版本（MADDPG_simple 和MADDPG ）时�
 
 
 具体修改环境见MAPPO.py文件中的 ### 修改环境 注释
+
+在MADDPG_simple.py中的效果如下
+![alt text](image.png)
+然后在MAPPO.py中的效果确不能收敛
+在修改的MAPPO_decay_std.py中的效果如下:仍然不能很好收敛。
+![alt text](image-1.png)
