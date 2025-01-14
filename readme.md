@@ -1,4 +1,4 @@
-最终使用MADDPG_simple.py进行训练，具体训练的调参见MADDPG_simple.py文件  
+最终使用MADDPG_simple.py和env_restruction.py进行训练，具体训练的调参见MADDPG_simple.py文件  
 原因：使用MADDPG_simple.py进行训练，训练速度快， 比MADDPG.py快 因为去掉了一些没用到的trick的if
 （效果好，且代码简洁，易于理解）。
 MADDPG_raw为原始使用此环境的版本
