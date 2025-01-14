@@ -1,0 +1,60 @@
+max_steps = 30
+    # 最大episode长度
+[map]
+    # 地图相关参数
+width = 50
+    # 地图宽度
+height = 50
+    # 地图高度
+
+[team]
+    # 队伍相关设置
+n_red_soldier = 0
+    # 红方坦克数量
+n_red_tank = 3
+    # 红方坦克数量
+n_blue_soldier = 0
+    # 蓝方坦克数量
+n_blue_tank = 3
+    # 蓝方坦克数量
+    
+[tank]
+    # 坦克相关设置
+hp = 10
+    # 生命值
+fuel = 30
+    # 燃油量
+speed = 5
+    # 移速
+bullet_num  = 10
+    # 弹药量
+shoot_distance = 15
+    # 射击距离
+visibility_range = 25
+    # 可见范围
+
+[missile]
+    # 导弹相关设置
+damage_radius = 5
+    # 毁伤范围
+damage = 3
+    # 最大伤害值
+
+[soldier]
+    #士兵相关设置
+hp = 3
+    # 生命值
+speed = 3 
+    # 速度 
+bullet_num = 10
+    # 弹药量
+shoot_distance = 10
+    # 射击距离
+visibility_range = 15
+    # 可见范围
+
+
+[bullet]
+    # 子弹相关设置
+damage = 1
+    # 最大伤害值
